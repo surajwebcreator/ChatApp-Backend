@@ -19,7 +19,7 @@ app.use(cookieParser());
 // app.use(cors());
 app.use(cors({
     // origin: "http://localhost:5173",
-    origin: "https://chatapp-backend-mfb2.onrender.com",
+    origin: "https://chat-app-frontend-liart-psi.vercel.app",
     credentials: true,
 }))
 app.use("/api/auth", authRoutes);
